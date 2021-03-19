@@ -6,13 +6,13 @@ function Menu () {
         <div className="menu">
             <div className="row justify-content-end">
                 <div className="col-auto">
-                    Главная
+                    <a href="">Главная</a>
                 </div>
                 <div className="col-auto">
-                    О нас
+                    <a href="">О нас</a>
                 </div>
                 <div className="col-auto">
-                    Контакты
+                    <a href="">Контакты</a>
                 </div>
             </div>
         </div>

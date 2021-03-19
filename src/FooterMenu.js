@@ -5,13 +5,13 @@ function FooterMenu () {
         <div className="footerMenu">
             <div className="row justify-content-end">
                 <div className="col-auto">
-                    Партнерам
+                    <a href="">Партнерам</a>
                 </div>
                 <div className="col-auto">
-                    Разработчикам
+                    <a href="">Разработчикам</a>
                 </div>
                 <div className="col-auto">
-                    Вакансии
+                    <a href="">Вакансии</a>
                 </div>
             </div>
         </div>

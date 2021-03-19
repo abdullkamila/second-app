@@ -4,7 +4,7 @@ import Buttons from "./Buttons";
 
 function MainContent () {
     return (
-        <div>
+        <div className="mainContent">
             <div className="row">
                 <div className="col-12">
                     <Number />

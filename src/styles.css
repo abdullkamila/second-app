@@ -2,12 +2,19 @@
     font-family: 'Roboto', sans-serif;
     padding-top: 28px;
 }
-.menu {
+.menu a {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #003399;
     line-height: 52px;
+    text-decoration: none;
+}
+:hover .menu a {
+    color: #003399;
+}
+.mainContent {
+    margin-bottom: 250px;
 }
 .number {
     font-size: 288px;
@@ -36,13 +43,19 @@
     background: #E5E5E5;
     color: #000;
 }
+.content {
+    min-height: calc(100vh - 80px);
+}
 .footer {
     height: 50px;
-    margin-top: 250px;
 }
-.footerMenu, .copyright {
+.footerMenu a, .copyright {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: rgba(0, 0, 0, 0.5);
+}
+:hover .footerMenu a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
 }
