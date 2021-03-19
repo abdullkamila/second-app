@@ -6,15 +6,14 @@ function Header () {
     return (
         <div className="header">
             <div className="row">
-                    <div className="col-6">
-                        <Logo />
-                    </div>
-                    <div className="col-6"> 
-                        <Menu />
-                    </div>
+                 <div className="col-6">
+                    <Logo />
                 </div>
-            
-
+                <div className="col-6"> 
+                    <Menu />
+                </div>
+            </div>
+            <hr></hr>
         </div>
     )
 }

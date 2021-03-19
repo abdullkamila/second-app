@@ -19,13 +19,3 @@ function Buttons () {
     )
 }
 export default Buttons
-
-
-{/*function Buttons () {
-    return (
-        <div className="button">
-            Увеличить
-        </div>
-    )
-}
-export default Buttons*/}

@@ -13,6 +13,9 @@
 :hover .menu a {
     color: #003399;
 }
+hr {
+    color: rgba(0, 0, 0, 0.05);
+}
 .mainContent {
     margin-bottom: 250px;
 }
@@ -44,10 +47,10 @@
     color: #000;
 }
 .content {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh -60px);
 }
 .footer {
-    height: 50px;
+    height: 60px;
 }
 .footerMenu a, .copyright {
     font-weight: 500;
