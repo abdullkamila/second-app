@@ -47,7 +47,7 @@ hr {
     color: #000;
 }
 .content {
-    min-height: calc(100vh -60px);
+    min-height: calc(100vh - 60px);
 }
 .footer {
     height: 60px;
